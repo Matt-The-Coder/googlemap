@@ -1,0 +1,48 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h2 {
+  margin-top: 2rem;
+}
+
+input {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.register-button {
+  background-color: #5cb85c;
+  color: white;
+}
+
+.login-button {
+  background-color: #337ab7;
+  color: white;
+}
+
+.protected-button {
+  background-color: #f0ad4e;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.map{
+  display: flex;
+  justify-content: space-around;
+}
